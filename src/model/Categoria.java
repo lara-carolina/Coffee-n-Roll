@@ -1,6 +1,6 @@
 package model;
 
-public enum CategoriaReceita {
+public enum Categoria {
     DOCES,
     SALGADOS,
     BEBIDAS

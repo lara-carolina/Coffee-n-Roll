@@ -1,20 +1,21 @@
 package model;
 
-public enum SubCategoriaRec {
-    COM_FRUTAS(CategoriaReceita.DOCES),
-    COM_CHOCOLATE(CategoriaReceita.DOCES),
-    FRITOS(CategoriaReceita.SALGADOS),
-    ASSADOS(CategoriaReceita.SALGADOS),
-    CAFES(CategoriaReceita.BEBIDAS),
-    CREMES(CategoriaReceita.BEBIDAS);
+public enum SubCategoria {
 
-    private final CategoriaReceita categoria;
+    COM_FRUTAS(Categoria.DOCES),
+    COM_CHOCOLATE(Categoria.DOCES),
+    FRITOS(Categoria.SALGADOS),
+    ASSADOS(Categoria.SALGADOS),
+    CAFES(Categoria.BEBIDAS),
+    CREMES(Categoria.BEBIDAS);
 
-    SubCategoriaRec(CategoriaReceita categoria) {
+    private final Categoria categoria;
+
+    SubCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
-    public CategoriaReceita getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 }
