@@ -27,3 +27,6 @@ controller -> ContTelaPrincipal, ContConsulta.
 dao -> CategoriaDAO, Conexao, ReceitaDAO, SubCategoriaDAO.
 model -> Categoria, Receita, SubCategoria.
 view -> TelaPrincipal, Consulta.
+
+## Autores
+Lara Carolina, Nicolle Pires e Davy Leônidas.
