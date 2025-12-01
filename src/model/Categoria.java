@@ -1,7 +1,18 @@
 package model;
 
 public enum Categoria {
-    DOCES,
-    SALGADOS,
-    BEBIDAS
+
+    DOCES("Doces"),
+    SALGADOS("Salgados"),
+    BEBIDAS("Bebidas");
+
+    private final String nome;
+
+    Categoria(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }
